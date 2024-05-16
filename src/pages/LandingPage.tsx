@@ -56,7 +56,7 @@ export const LandingPage: FC = () => {
               </div>
 
               <a
-                className="font-montserrat btn btn-outline-light btn-outline-light-custom border border-0 fs-big-1 fw-bolder w-100 mt-auto"
+                className="font-montserrat btn btn-outline-light btn-outline-light-custom border border-0 fs-big-1 fw-bolder w-100  mb-auto"
                 href="#bienvenue"
                 onClick={handleClickOnBienvenue}
               >
