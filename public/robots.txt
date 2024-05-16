@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://smartweb-design.com/sitemap.xml
+Host: https://smartweb-design.com

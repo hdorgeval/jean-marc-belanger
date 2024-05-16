@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="/inline-scripts/trusted-types-policy.js"></script>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+        script-src 'self' https://www.googletagmanager.com/gtag/js https://www.googletagmanager.com/debug/bootstrap https://www.google.com/recaptcha/api.js https://www.gstatic.com/recaptcha/;
+        font-src 'self' https://fonts.gstatic.com;
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/;
+        form-action 'self';
+        object-src 'none';
+        img-src 'self' data: https://www.google.com/recaptcha;
+        child-src 'self' https://www.gstatic.com https://www.google.com;
+        require-trusted-types-for 'script';
+      "
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-starturl" content="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Smart Web Design - Votre site web sur mesure pour briller dans le monde du bien-être et du développement personnel."
+    />
+    <meta name="twitter:title" content="Smart Web Design" />
+    <meta
+      name="twitter:description"
+      content="Smart Web Design - Votre site web sur mesure pour briller dans le monde du bien-être et du développement personnel."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:label1" content="Temps de lecture" />
+    <meta name="twitter:data1" content="Moins d'une minute" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://smartweb-design.com/" />
+    <meta property="og:title" content="Smart Web Design" />
+    <meta
+      property="og:description"
+      content="Smart Web Design - Votre site web sur mesure pour briller dans le monde du bien-être et du développement personnel."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://www.google.com" />
+    <link rel="preconnect" href="https://www.gstatic.com" crossorigin />
+    <title>Accueil | Smart Web Design</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript in the Site Settings to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HFG8L2P9HV"></script>
+    <script src="/inline-scripts/gtag.js"></script>
+
+    <!-- Lazy load recaptcha -->
+    <script src="/inline-scripts/recaptcha.js"></script>
+
+    <!-- A little help for the Netlify post-processing bots -->
+    <form name="Contact" netlify netlify-honeypot="bot-field" data-netlify-recaptcha="true" hidden>
+      <input name="bot-field" />
+      <input type="text" name="Nom" autocomplete="name" />
+      <input type="email" name="Email" autocomplete="email" />
+      <input type="tel" name="Portable" autocomplete="tel-national" />
+      <select name="Sujet"></select>
+      <textarea name="Message"></textarea>
+      <textarea name="Disponibilités"></textarea>
+      <input type="hidden" name="subject" value="Demande de contact" />
+    </form>
+
+    <form
+      name="Prendre rendez vous"
+      netlify
+      netlify-honeypot="bot-field"
+      data-netlify-recaptcha="true"
+      hidden
+    >
+      <input name="bot-field" />
+      <input type="text" name="Nom" autocomplete="name" />
+      <input type="email" name="Email" autocomplete="email" />
+      <input type="tel" name="Portable" autocomplete="tel-national" />
+      <select name="Sujet"></select>
+      <textarea name="Message"></textarea>
+      <textarea name="Disponibilités"></textarea>
+      <input type="hidden" name="subject" value="Prendre rendez-vous" />
+    </form>
+
+    <!-- # INSERT SCRIPT HERE -->
+  </body>
+</html>
