@@ -4,7 +4,6 @@ import { useMetaDescription } from '../../hooks/useMetaDescription';
 import { useOffCanvasBackdropRemover } from '../../hooks/useOffCanvasBackdropRemover';
 import { useTitle } from '../../hooks/useTitle';
 import { Footer } from './Footer';
-import { HambugerMenu } from './HamburgerMenu';
 
 export interface PublicPageLayoutOwnProps {
   children: React.ReactNode;
@@ -18,7 +17,7 @@ export const PublicPageLayout: FC<PublicPageLayoutOwnProps> = ({ children, htmlT
   useMetaDescription(htmlTitle);
   return (
     <>
-      <HambugerMenu />
+      {/* <HambugerMenu /> */}
       <div className="w-100 h-100 d-flex flex-column align-items-center overflow-y-scroll">
         {children}
         <Footer />

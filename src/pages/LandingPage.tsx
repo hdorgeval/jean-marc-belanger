@@ -45,7 +45,7 @@ export const LandingPage: FC = () => {
               className="d-flex flex-column justify-content-start align-items-center"
               style={{ height: '100vh' }}
             >
-              <div className="flex-grow-half"></div>
+              <div className="flex-grow-third"></div>
               <h1 className="font-montserrat text-light fw-bolder fs-big-1">Paris Constell</h1>
               <div className="container row justify-content-center">
                 <div className="col-lg-8 col-md-10 text-center">
@@ -56,13 +56,13 @@ export const LandingPage: FC = () => {
               </div>
 
               <a
-                className="font-montserrat btn btn-outline-light btn-outline-light-custom fs-1 fw-bolder w-50 mt-auto mb-auto"
+                className="font-montserrat btn btn-outline-light btn-outline-light-custom border border-0 fs-big-1 fw-bolder w-100 mt-auto"
                 href="#bienvenue"
                 onClick={handleClickOnBienvenue}
               >
-                Découvrir
+                <i className="bi bi-chevron-compact-down mb-0"></i>
               </a>
-              <div className="" style={{ minHeight: '5vh' }}></div>
+              {/* <div className="" style={{ minHeight: '9vh' }}></div> */}
             </div>
           </div>
         </div>

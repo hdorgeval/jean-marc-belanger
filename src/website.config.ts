@@ -129,7 +129,7 @@ export const websiteConfig: WebSiteConfig = {
       analyticEvent: 'open-my-calendly',
     },
     contactForm: {
-      url: '/contact',
+      url: '#',
       title: 'Me contacter',
       label: 'Me contacter',
       show: true,
