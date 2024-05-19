@@ -54,7 +54,7 @@ export const SimpleBurgerMenu: FC = () => {
                 </li>
                 <li className="fs-6 fw-bolder">
                   <a className="dropdown-item" href="#">
-                    Diamnche 9 juin à Paris - 9h30/18h30
+                    Dimanche 9 juin à Paris - 9h30/18h30
                   </a>
                 </li>
                 <li>
@@ -67,7 +67,7 @@ export const SimpleBurgerMenu: FC = () => {
                 </li>
                 <li className="fs-6 fw-bolder">
                   <a className="dropdown-item" href="#">
-                    Diamnche 16 juin à Paris - 9h30/18h30
+                    Dimanche 16 juin à Paris - 9h30/18h30
                   </a>
                 </li>
               </ul>
