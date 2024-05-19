@@ -4,8 +4,9 @@ export const SimpleBurgerMenu: FC = () => {
   return (
     <nav
       className="navbar navbar-expand-lg fixed-top"
+      data-bs-theme="light"
       style={{
-        backgroundColor: 'rgb(17 14 27 / 68%)',
+        backgroundColor: 'rgb(223 223 223)',
       }}
     >
       <div className="container-fluid">
@@ -19,7 +20,7 @@ export const SimpleBurgerMenu: FC = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <i className="bi bi-list text-white fs-navbar-toggler-3"></i>
+          <i className="bi bi-list fs-navbar-toggler-3"></i>
         </button>
         <div className="collapse navbar-collapse" id="simple-burger-menu">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -73,7 +74,7 @@ export const SimpleBurgerMenu: FC = () => {
               </ul>
             </li>
             <li>
-              <hr className="dropdown-di" />
+              <hr className="text-black" />
             </li>
             <li className="nav-item dropdown">
               <a
