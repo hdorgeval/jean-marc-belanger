@@ -454,3 +454,7 @@ input.form-rdv-light-brown:-webkit-autofill {
   border-bottom-left-radius: 0% !important;
   border-bottom-right-radius: 0% !important;
 }
+
+.dropdown-toggle.no-vertical-align::after {
+  vertical-align: 0em !important;
+}
