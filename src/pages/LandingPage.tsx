@@ -45,8 +45,16 @@ export const LandingPage: FC = () => {
               className="d-flex flex-column justify-content-start align-items-center"
               style={{ height: '100vh' }}
             >
-              <div className="flex-grow-third"></div>
-              <h1 className="font-montserrat text-light fw-bolder fs-big-1">Paris Constell</h1>
+              <img
+                src="/images/logos/logo-paris-constell.png"
+                alt="Logo"
+                className="align-text-top"
+                style={{ height: '38vh' }}
+              />
+              {/* <div className="flex-grow-third"></div> */}
+              <h1 className="font-montserrat text-light font-vujahday-script fw-bolder fs-zeta-1">
+                Paris Constell
+              </h1>
               <div className="container row justify-content-center">
                 <div className="col-lg-8 col-md-10 text-center">
                   <p className="text-light font-montserrat mt-4 fs-2">
@@ -56,7 +64,7 @@ export const LandingPage: FC = () => {
               </div>
 
               <a
-                className="font-montserrat btn btn-outline-light btn-outline-light-custom border border-0 fs-big-1 fw-bolder w-100  mb-auto"
+                className="font-montserrat btn btn-outline-light btn-outline-light-custom border border-0 fs-zeta-1 fw-bolder w-100  mb-auto"
                 href="#bienvenue"
                 onClick={handleClickOnBienvenue}
               >
@@ -67,7 +75,6 @@ export const LandingPage: FC = () => {
           </div>
         </div>
       </section>
-
     </PublicPageLayout>
   );
 };

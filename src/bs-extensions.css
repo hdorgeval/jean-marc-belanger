@@ -59,8 +59,15 @@
   font-family: 'Kite One', sans-serif;
 }
 
+.font-vujahday-script {
+  font-family: 'Vujahday Script', cursive;
+}
+
 .fs-big-1 {
   font-size: calc(2.7rem + 1.5vw) !important;
+}
+.fs-zeta-1 {
+  font-size: calc(3.7rem + 1.5vw) !important;
 }
 
 .fs-7 {
