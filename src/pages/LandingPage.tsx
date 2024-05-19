@@ -46,13 +46,13 @@ export const LandingPage: FC = () => {
               style={{ height: '100vh' }}
             >
               <img
-                src="/images/logos/logo-paris-constell.png"
+                src="/images/logos/logo-paris-constell.webp"
                 alt="Logo"
                 className="align-text-top"
                 style={{ height: '38vh' }}
               />
               {/* <div className="flex-grow-third"></div> */}
-              <h1 className="font-montserrat text-light font-vujahday-script fw-bolder fs-zeta-1">
+              <h1 className="font-vujahday-script fw-bolder fs-zeta-1 text-light ">
                 Paris Constell
               </h1>
               <div className="container row justify-content-center">
