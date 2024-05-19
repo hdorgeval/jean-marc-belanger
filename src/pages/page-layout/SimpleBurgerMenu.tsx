@@ -77,7 +77,7 @@ export const SimpleBurgerMenu: FC = () => {
             </li>
             <li className="nav-item dropdown">
               <a
-                className="nav-link dropdown-toggle no-vertical-align font-vujahday-script fw-bolder fs-big-1"
+                className="nav-link dropdown-toggle no-vertical-align font-vujahday-script fw-bolder fs-big-1 ms-4"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
